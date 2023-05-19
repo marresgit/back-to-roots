@@ -1,15 +1,14 @@
 from flask import Flask
 import requests
+import config
 
 app = Flask (__name__)
 
-API_KEY="378e3722-bb85-4e3c-9599-ecf118cf25ab"
-
 @app.route("/")
 def hello():
-    r = requests.get('https://api.opendota.com/api/matches/271145478?api_key=378e3722-bb85-4e3c-9599-ecf118cf25ab')
+    r = requests.get(f'https://api.opendota.com/api/matches/271145478?api_key={config.API_KEY}')
 
-    return "Hello world " + str(r.status_code)
+    return "Hello world " + str(r.status_code) + " " + str(r.json())
 
 if __name__ == '__main__':
     app.run()
