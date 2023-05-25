@@ -2,5 +2,7 @@
 Getting back to my roots
 
 
-- [] Print matches + hero (ONLY)
-- 
+- [] Print one match + hero (ONLY)
+- [] Loop through all matches
+- [] Add the heroes in the loop
+- [] 
