@@ -3,6 +3,8 @@ Getting back to my roots
 
 
 - [] Print one match + hero (ONLY)
-- [] Loop through all matches
+- [] Loop through 10 matches
 - [] Add the heroes in the loop
-- [] 
+
+- [] Search for name
+- [] Get last 10 matches from name
